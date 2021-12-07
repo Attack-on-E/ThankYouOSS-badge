@@ -1,7 +1,7 @@
 import requests
 
 
-def download_image(count: int) -> bytes:
+def download_image(count: str) -> bytes:
     url = f"https://img.shields.io/badge/thanks-{count}-c.svg"
 
     response = requests.get(url)
