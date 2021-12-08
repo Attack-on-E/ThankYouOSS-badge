@@ -16,4 +16,4 @@ def fetch_thank_count(user_name: str, repo_name: str) -> str:
         return str(count)
 
     except:
-        return "null"
+        return "0"
